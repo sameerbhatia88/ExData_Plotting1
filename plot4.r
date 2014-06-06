@@ -26,7 +26,7 @@ PC$Date<-as.Date(PC$Date,format="%d/%m/%Y")
 
 df_final_1<-rbind(PC[which(PC$Date == "2007-02-01"),],PC[which(PC$Date == "2007-02-02"),])
 
-png(file="C:/Users/Sameer/Desktop/ExData_Plotting1/figure/plot4.png", width = 480, height = 480, units = "px")
+png(file="C:/Users/Sameer/Desktop/ExData_Plotting1/plot4.png", width = 480, height = 480, units = "px")
 
 par(mfrow=c(2,2))
 

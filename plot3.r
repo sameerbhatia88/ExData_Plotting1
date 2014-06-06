@@ -26,7 +26,7 @@ df_final_1<-rbind(PC[which(PC$Date == "2007-02-01"),],PC[which(PC$Date == "2007-
 
 
 
-png(file="C:/Users/Sameer/Desktop/ExData_Plotting1/figure/plot3.png", width = 480, height = 480, units = "px")
+png(file="C:/Users/Sameer/Desktop/ExData_Plotting1/plot3.png", width = 480, height = 480, units = "px")
 
 
 plot( df_final_1$DateTime, df_final_1$Sub_metering_1,type="l",ylab="Energy sub metering" ,xlab="")
